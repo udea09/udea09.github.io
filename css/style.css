@@ -1,7 +1,7 @@
 body { 
 	margin: 0;
 	height: 100vh;
-	background: url("../images/truck_1920.jpg")no-repeat center;
+	background: url("../images/interior_1920.jpg") no-repeat center;
 	color: #fff;
 
 	display: flex;
