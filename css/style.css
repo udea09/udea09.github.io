@@ -1,3 +1,27 @@
+
+/* 브라우저 스타일 초기화 */
+
 body{
- background: url(../images/leading-24px.png);
+/* 가운데 정렬 */ 
+width: 960px;
+margin: 0 auto 0 auto;
+
+background: url("../images/leading-24px.png");/* 레딩 간견을 패턴으로 배경이미지로 그림 */
+font-family: "Spoqa Han Sans";/* 글자모양 */
+line-height: 1.5; /* 행간 line height *//*1.5x*/
+letter-spacing: -0.02em /* 글자 사이 간격 letter spacing */
+}
+
+
+/*멀티컬럼디자인*/
+div {
+	column-count: 2 ;
+	column-gap: 3em ;
+}
+
+/* pharagraph 단락 디자인 */
+p {
+	margin-top: 2em;
+	margin-bottom: 1.5em;
+    color: #808080;/* 글자 색상 */
 }
